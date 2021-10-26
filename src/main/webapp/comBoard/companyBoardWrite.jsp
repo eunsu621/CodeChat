@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>채용 정보 작성</title>
+<link rel = "stylesheet" href = "css/codeChat.css">
 <style>
 
 </style>
@@ -13,6 +14,7 @@
 </head>
 <body>
 	<div id="wrap">
+	<img style = "width: 100%; height: 300px; " src = "images/meeting.png"/>
 		<h1>채용공고 작성</h1>
 		<form name="form" method="post" action="CodeChatServlet?command=insertComBoard">
 			<input type="hidden" name="id" value="${loginCompany.id}">
@@ -45,17 +47,9 @@
 				<input type="radio" name="career" value="무관" id="irrelevant"><label for="irrelevant">무관</label><br><br>
 				</div>
 				
-				
-				
-				
-				
-				
-				
-				
-				
 				<div class="verAlign">
 					<label class="title" style = "width : 80px">내용</label>
-					<textarea name="content" cols="60" rows="10"></textarea>
+					<textarea name="content" cols="100" rows="10"></textarea>
 				</div><br><br>
 				
 				

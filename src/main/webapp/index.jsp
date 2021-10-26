@@ -265,7 +265,7 @@ const srcValArr = [
 					</table>
 				</div>
 				<!-- 채용공고끝 -->
-			
+			</div>
 		</div>
 				
 		

@@ -18,10 +18,11 @@
 <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
 </head>
 <body>
+<!-- https://wogus789789.tistory.com/178 -->
     <script>
     $(function(){
         var IMP = window.IMP; // 생략가능
-        IMP.init('imp30101072'); // 'iamport' 대신 부여받은 "가맹점 식별코드"를 사용
+        IMP.init('imp80791633'); // 'iamport' 대신 부여받은 "가맹점 식별코드"를 사용
         var msg;
         
         IMP.request_pay({
@@ -77,5 +78,4 @@
     </script> 
  
 </body>
-</html>
 </html>

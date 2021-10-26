@@ -43,10 +43,14 @@ $(function() {
          nextVideo();
     });
 
+/*'https://www.youtube.com/embed/aBXwSmpPTGE',
+	  'https://www.youtube.com/embed/m0xlCLvPfz4',
+	  'https://www.youtube.com/embed/uoenxIjO4aU',
+	  'https://www.youtube.com/embed/FS6fcbdGnB4'*/
 
 	// 변경할 영상 소스
    const srcValArr = [
-      'https://www.youtube.com/embed/cqlY1Hc70H0',
+	  'https://www.youtube.com/embed/cqlY1Hc70H0',
       'https://www.youtube.com/embed/Bhzz9E3xuXY',
       'https://www.youtube.com/embed/SZclqh4GpEI',
       'https://www.youtube.com/embed/8Kp7QoVxjoA',
@@ -67,7 +71,7 @@ $(function() {
 	const ran = (Math.round(Math.random(srcValArr.length) * 10));
 	iframe1.setAttribute("src", srcValArr[ran]);
 	idx = ran;
-	
+	console.log(ran);
 	// 다음 영상
 	function nextVideo() {
 		idx++;

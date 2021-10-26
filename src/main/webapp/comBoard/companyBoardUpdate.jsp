@@ -19,6 +19,7 @@
 </head>
 <body>
 	<div id="wrap">
+	<img style = "width: 100%; height: 300px; " src = "images/meeting.png"/>
 		<h1>채용공고 수정</h1>
 		<form name="form" method="post" action="CodeChatServlet?command=updateComBoard&id=${comBoard.id}&seq=${comBoard.seq}">
 			<article id="companyBoard_w">
@@ -50,7 +51,7 @@
 				<div class="verAlign">
 					<label class="title" style = "width : 80px">내용</label>
 					
-						<textarea name="content" cols="60" rows="10">${comBoard.content}</textarea>
+						<textarea name="content" cols="100" rows="10">${comBoard.content}</textarea>
 					
 				</div><br><br>
 				
